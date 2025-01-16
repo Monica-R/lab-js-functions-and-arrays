@@ -13,7 +13,7 @@ function findLongestWord(arrayWords) {
         return null;
     } else {
        for (let i = 0; i < arrayWords.length; i++) {
-            if (longestWord.length === arrayWords[i].lenght) {
+            if (longestWord.length === arrayWords[i].length) {
                 continue;
             } else if (arrayWords[i].length > longestWord.length) {
                 longestWord = arrayWords[i];
